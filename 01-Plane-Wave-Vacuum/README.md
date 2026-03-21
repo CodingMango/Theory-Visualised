@@ -46,7 +46,7 @@ Because the speed of light is so massive (3 × 10⁸ m/s), the magnetic componen
 
 If I rendered this simulation with strict real-world magnitudes, the blue Electric Field would fill your screen, and the red Magnetic Field would be so incredibly tiny it wouldn't even render a single pixel. 
 
-**For the sake of visualisation, the magnitude of $\vec{B}$ has been artificially scaled up ($C = A$ in the code), so both fields are equally visible.** Furthermore, this simulates an **ideal vacuum**. In the messy reality of the real world (passing through walls, atmosphere, or copper), waves experience *attenuation* (losing energy to heat) and *dispersion* (slowing down). This simulation models the perfect, eternal journey of light through deep space.
+**For the sake of visualisation, the magnitude of B has been artificially scaled up (C = A in the code), so both fields are equally visible.** Furthermore, this simulates an **ideal vacuum**. In the messy reality of the real world (passing through walls, atmosphere, or copper), waves experience *attenuation* (losing energy to heat) and *dispersion* (slowing down). This simulation models the perfect, eternal journey of light through deep space.
 
 ## ⚙️ Interactive Controls
 Run the script, and use the on-screen sliders to play god with the universe:
