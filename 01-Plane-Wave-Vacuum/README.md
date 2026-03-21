@@ -19,27 +19,30 @@ Here is how that cosmic leapfrog is mapped in this simulation:
 
 ### 1. The Orthogonal Rule (Transverse Waves)
 Nature demands that these fields respect each other's space. They must be mutually perpendicular. 
-* **The Electric Field ($\vec{E}$ - Blue):** Oscillates vertically along the Y-axis.
-  $$\vec{E}(z,t) = \hat{j} E_0 \sin(kz - \omega t)$$
-* **The Magnetic Field ($\vec{B}$ - Red):** Oscillates horizontally along the X-axis.
-  $$\vec{B}(z,t) = -\hat{i} B_0 \sin(kz - \omega t)$$
+* **The Electric Field (E - Blue):** Oscillates vertically along the Y-axis.
+  > **E**(z,t) = **ĵ** E₀ sin(kz − ωt)
+
+* **The Magnetic Field (B - Red):** Oscillates horizontally along the X-axis.
+  > **B**(z,t) = −**î** B₀ sin(kz − ωt)
 
 ### 2. The Coincidence (In-Phase Oscillation)
 Common sense tells us that in a vibrating system (like a pendulum), when one property is at its maximum, the other is at zero. *Not here.* In a pure vacuum, the Electric and Magnetic fields peak at the exact same moment and die out at the exact same moment. They are perfectly in phase.
 
 ### 3. The Pulsing of Power (The Poynting Vector)
-Look at the **Yellow arrows** propagating forward along the Z-axis. This is the **Poynting Vector ($\vec{S}$)**, representing the actual directional flow of the wave's energy.
-$$\vec{S} = \frac{1}{\mu_0} (\vec{E} \times \vec{B})$$
-Because it is the cross-product of two sine waves (resulting in a $\sin^2$ wave), the energy doesn't flow like a smooth, steady river. It *pulses*. It surges from zero to a positive maximum over and over, carrying literal momentum through the void.
+Look at the **Yellow arrows** propagating forward along the Z-axis. This is the **Poynting Vector (S)**, representing the actual directional flow of the wave's energy.
+  > **S** = (1 / μ₀) (**E** × **B**)
+
+Because it is the cross-product of two sine waves (resulting in a sin² wave), the energy doesn't flow like a smooth, steady river. It *pulses*. It surges from zero to a positive maximum over and over, carrying literal momentum through the void.
 
 ## ⚠️ Simulation Limitations
 
 While the math driving this simulation is strict, I had to break one fundamental rule of physics so you could actually see the wave. 
 
 **The Magnetic Field Scaling**
-In our physical universe, the magnitude of the electric field ($E$) and the magnetic field ($B$) are related by the speed of light ($c$):
-$$B = \frac{E}{c}$$
-Because the speed of light is so massive ($3 \times 10^8$ m/s), the magnetic component of an EM wave is *microscopically small* compared to the electric component when measured in standard units (Teslas vs. Volts/meter). 
+In our physical universe, the magnitude of the electric field (E) and the magnetic field (B) are related by the speed of light (c):
+  > B = E / c
+
+Because the speed of light is so massive (3 × 10⁸ m/s), the magnetic component of an EM wave is *microscopically small* compared to the electric component when measured in standard units (Teslas vs. Volts/meter). 
 
 If I rendered this simulation with strict real-world magnitudes, the blue Electric Field would fill your screen, and the red Magnetic Field would be so incredibly tiny it wouldn't even render a single pixel. 
 
@@ -48,8 +51,8 @@ If I rendered this simulation with strict real-world magnitudes, the blue Electr
 ## ⚙️ Interactive Controls
 Run the script, and use the on-screen sliders to play god with the universe:
 * **Amplitude:** Watch how increasing the height of the fields drastically increases the size of the Poynting vector (representing a brighter light or a stronger signal).
-* **Wavelength ($\lambda$):** Stretch or compress the spatial footprint of the wave.
-* **Frequency ($\omega$):** Speed up the cosmic vibration. 
+* **Wavelength (λ):** Stretch or compress the spatial footprint of the wave.
+* **Frequency (ω):** Speed up the cosmic vibration. 
 
 ## 🚀 Quick Start Guide
 
